@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import './Shelf.css'
+import Header from '../header/Header.js'
 
 
 export default class Shelf extends Component {
@@ -23,7 +24,7 @@ export default class Shelf extends Component {
 
                 {/* {this.state? this.state.bin1 && this.state.bin2   : null} */}
                 
-
+                <Header />
 
                 <div className='bin_container'>
                     {this.state.bin1}
