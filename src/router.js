@@ -4,13 +4,12 @@ import Home from './component/home/Home.js';
 import Shelf from './component/shelf/Shelf.js';
 
 export default (
+    <div>
     
     <Switch>
-        <Home />
-      <Route component={ Shelf } path="/create/A1"/>
-      <Route component={ Shelf } path="/bin/A2" /> 
-      <Route component={ Shelf } path="/bin/A3" />
-      <Route component={ Shelf } path="/bin/A4" /> 
-      <Route component={ Shelf } path="/bin/A5" />
+      <Route component={ Home } exact path='/'/>
+      <Route component={ Shelf } path="/bins/A"/>
+
     </Switch>
+    </div>
   )

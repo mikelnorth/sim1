@@ -15,8 +15,8 @@ class Home extends Component {
 
                     </div>
                 </div>
-            <body className='Shelfie__child_container' >
-                <Link className='navLink' to= '/' > 
+            <div className='Shelfie__child_container' >
+                <Link className='navLink' to= '/bins/A' > 
                 <span className='Shelf_A'>Shelf A</span>
                 </Link>
                 <Link className='navLink' to= '/'>
@@ -28,7 +28,7 @@ class Home extends Component {
                 <Link className='navLink' to= '/'>
                 <span className='Shelf_D'>Shelf D</span>
                 </Link>
-            </body>
+            </div>
 
             </div>
         )
