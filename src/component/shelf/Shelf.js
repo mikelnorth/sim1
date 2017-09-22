@@ -10,7 +10,7 @@ export default class Shelf extends Component {
 
         this.state = {
             bin1: <Link className='bin' to='/create/A1'><span>+ Add inventory to bin</span></Link>,
-            bin2: <Link className='bin' to='/create/A2'><span>+ Add inventory to bin</span></Link>,
+            bin2: <Link className='bin2' to='/create/A2'><span>Bin 2</span></Link>,
             bin3: <Link className='bin' to='/create/A3'><span>+ Add inventory to bin</span></Link>,
             bin4: <Link className='bin' to='/create/A4'><span>+ Add inventory to bin</span></Link>,
             bin5: <Link className='bin' to='/create/A5'><span>+ Add inventory to bin</span></Link>

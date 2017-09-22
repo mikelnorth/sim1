@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './add.css';
+import Header from '../header/Header.js'
 
 class Add extends Component {
   constructor(){
@@ -11,6 +12,9 @@ class Add extends Component {
   }
   render() {
     return (
+      <div>
+        <div className="header"></div>
+        
       <div className="container">
 
         <p className="name">Name</p>
@@ -21,7 +25,7 @@ class Add extends Component {
         <button className="save">+ Add to Inventory</button>
 
 
-
+        </div>
       </div>
     );
   }

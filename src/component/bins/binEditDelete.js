@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './binEditDelete.css';
 
 class binEditDelete extends Component {
@@ -45,6 +44,8 @@ class binEditDelete extends Component {
 
   render() {
     return (
+      <div>
+        <div className="header"></div>
       <div className="container">
 
         <img src="http://lorempixel.com/200/200/business/" className="pic"/>
@@ -61,7 +62,7 @@ class binEditDelete extends Component {
         </div>
 
 
-
+        </div>
       </div>
     );
   }

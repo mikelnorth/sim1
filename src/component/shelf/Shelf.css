@@ -22,5 +22,23 @@
      justify-content: center; */
      /* text-align: center; */
  }
+
+ .bin2{
+    width: 500px;
+    height: 60px;
+    background: #D34735;
+    border-radius: 3px;
+    color: white;
+    font-size: 30px;
+    margin: 20px 200px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+}
  
  

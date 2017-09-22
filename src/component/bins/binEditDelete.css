@@ -7,7 +7,15 @@
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   padding: 30px;
+  margin-left: 350px;
+  flex-direction: row;
   
+}
+
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: #AB2A19
 }
 
 .pic {
@@ -29,7 +37,7 @@
 }
 
 .nameBox {
-    border: .1px solid #AB2A19;
+    border: 1px solid #AB2A19;
     border-radius: 2px;
     margin: 0px;
     height: 50px;
@@ -44,7 +52,7 @@
 
 }
 .currencyinput {
-  border: .1px solid #AB2A19;
+  border: 1px solid #AB2A19;
   border-radius: 2px;
   margin: 0px;
   height: 50px;
