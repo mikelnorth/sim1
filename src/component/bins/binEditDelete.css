@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+.container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+  
+}
+
+.pic {
+ 
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.name {
+  font-size: 10px;
+  margin-bottom: 3px;
+  font-weight: 900;
+  margin-left: 6px;
+}
+
+.nameBox {
+    border: .1px solid #AB2A19;
+    border-radius: 2px;
+    margin: 0px;
+    height: 50px;
+    width: 500px;
+}
+
+.price {
+  font-size: 10px;
+  margin-bottom: 3px;
+  font-weight: bolder;
+  margin-left: 6px;
+
+}
+.currencyinput {
+  border: .1px solid #AB2A19;
+  border-radius: 2px;
+  margin: 0px;
+  height: 50px;
+  width: 500px;
+}
+.currencyinput input {ß
+  border: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+
+
+.editDelete {
+  width: 150px;
+  height: 45px;
+  background-color: #d8d8d8;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 27px;
+
+
+}
+
+
+.save {
+  width: 150px;
+  height: 45px;
+  background-color: #40F99B;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 27px;
+}
