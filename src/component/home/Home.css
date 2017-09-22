@@ -1,39 +1,35 @@
-.Shelfie__parent_container {
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .Shelfie_header_content {
     background-color: #ab2a19; 
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Shelfie__header_span {
    color: white;
+   font-size: 30px;
+   font-family: 'Open Sans', sans-serif;
+   padding: 10px;
 }
 
 .Shelfie__child_container {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Shelf_A {
+.navLink {
     background-color: #d34735;   
     color: white;  
     text-align: center; 
-}
-
-.Shelf_B {
-    background-color: #d34735;   
-    color: white;   
-    text-align: center;
-}
-
-.Shelf_C {
-    background-color: #d34735;   
-    color: white; 
-    text-align: center; 
-}
-
-
-.Shelf_D {
-    background-color: #d34735; 
-    color: white;  
-    text-align: center;   
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    align-content: center;
+    font-size: 30px; 
+    width: 500px;
+    height: 60px;
+    margin-top: 20px;
 }
