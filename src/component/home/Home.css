@@ -1,0 +1,39 @@
+.Shelfie__parent_container {
+    
+}
+.Shelfie_header_content {
+    background-color: #ab2a19; 
+}
+
+.Shelfie__header_span {
+   color: white;
+}
+
+.Shelfie__child_container {
+    margin: 20px;
+}
+
+.Shelf_A {
+    background-color: #d34735;   
+    color: white;  
+    text-align: center; 
+}
+
+.Shelf_B {
+    background-color: #d34735;   
+    color: white;   
+    text-align: center;
+}
+
+.Shelf_C {
+    background-color: #d34735;   
+    color: white; 
+    text-align: center; 
+}
+
+
+.Shelf_D {
+    background-color: #d34735; 
+    color: white;  
+    text-align: center;   
+}
