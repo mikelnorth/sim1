@@ -1,0 +1,26 @@
+
+.bin_container{
+    display: flex;
+    flex-direction: column;
+     
+ }
+ 
+ .bin{
+     width: 500px;
+     height: 60px;
+     background: #ffb8af;
+     border-radius: 3px;
+     color: white;
+     font-size: 30px;
+     margin: 20px 200px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ 
+     /* display: flex;
+     justify-content: center; */
+     /* text-align: center; */
+ }
+ 
+ 
